@@ -1,0 +1,20 @@
+<template>
+    <div >
+        <lightning-card icon-name="utility:error" title={friendlyMessage}>
+            <!--<lightning-icon icon-name="utility:error"></lightning-icon>-->
+            <!-- <p>{friendlyMessage}</p> -->
+            <template if:true={errorMessages.length}>
+                <div class="slds-p-left_large">
+                    <lightning-input label="Show Details" type="checkbox" 
+                        onchange={handleCheckboxChange}>
+                    </lightning-input>
+                </div>
+                <template if:true={viewDetails}>
+                    <template for:each={errorMessages} for:item="message">
+                        <p key={message} class="error-message slds-p-left_large slds-p-top_small">{message}</p>
+                    </template>
+                </template>
+            </template>
+        </lightning-card>
+    </div>
+</template>

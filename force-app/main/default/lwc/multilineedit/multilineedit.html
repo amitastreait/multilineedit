@@ -1,6 +1,11 @@
 <template>
     <div>
         <lightning-card title="Multi Line Edit" icon-name="custom:custom59">
+            <template if:true={errors}>
+                <c-error-panel errors={errors} friendly-message="Error While Creating Records" >
+                    
+                </c-error-panel>
+            </template>
             <table class=" slds-scrollable_x slds-table slds-table_cell-buffer slds-table_bordered">
                 <thead>
                     <tr class="slds-line-height_reset">

@@ -37,7 +37,7 @@ export default class CustomLookup extends LightningElement {
                 this.records[i].Name = rec[this.searchfield];
             }
             this.error = undefined;
-            console.log(' records ', this.records);
+            //console.log(' records ', this.records);
         })
         .catch(error => {
             this.error = error;
@@ -68,7 +68,7 @@ export default class CustomLookup extends LightningElement {
         const selectedRecordEvent = new CustomEvent(
             "selectedrec",
             {
-                detail : undefined
+                detail : { recordId : undefined, index : this.index, relationshipfield : this.relationshipfield}
             }
         );
         this.dispatchEvent(selectedRecordEvent);

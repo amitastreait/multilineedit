@@ -44,6 +44,12 @@
             ],
             "c/searchComponent": [
                 "searchComponent/searchComponent.js"
+            ],
+            "c/errorPanel": [
+                "errorPanel/errorPanel.js"
+            ],
+            "c/utils": [
+                "utils/utils.js"
             ]
         }
     },

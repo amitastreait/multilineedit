@@ -1,9 +1,11 @@
 /* eslint-disable no-alert */
 /* eslint-disable no-console */
-import { LightningElement, track, wire } from 'lwc';
+import { LightningElement, track, wire, api } from 'lwc';
 import createContacts from '@salesforce/apex/ContactController.createContacts';
 import getpickVal from '@salesforce/apex/ContactController.getpickVal';
+import { showToast } from 'c/utils';
 export default class Multilineedit extends LightningElement {
+    @api errors;
     @track columns = [
         {
             "label" : "First Name",
@@ -82,8 +84,10 @@ export default class Multilineedit extends LightningElement {
         wiredPicklistValue({error, data}){
             if(error){
                 console.log(' Error ', error);
+                this.errors = error;
             }
             if(data){
+                this.errors = undefined;
                 console.log(data);
                 for(let i=0; i < data.length; i++){
                     let options = data[i].split('####');
@@ -113,20 +117,32 @@ export default class Multilineedit extends LightningElement {
     /* Call the Apex Method and Save the Record */
     saveRows(event){
         event.preventDefault();
-        //alert(' Here ');
         console.log(JSON.stringify(this.rows));
         createContacts({
             "recordList" : JSON.stringify(this.rows)
         })
         .then( result => {
             if(result){
-                console.log(' SUCCESS ', console.table(result));
-                console.log(result);
+                console.log(console.table(result));
+                this.errors = undefined;
+                const eventSuccess = showToast('dismissable',
+                    'success',
+                    'Record Inserted',
+                    'Record Inserted'
+                );
+                this.dispatchEvent(eventSuccess);
             }
         })
         .catch( error => {
             if(error){
+                this.errors = error;
                 console.log(' Error Occured ', error);
+                const eventSuccess = showToast('dismissable',
+                    'error',
+                    'Error Occured !!',
+                    'An Error Occured While Creating Records.'
+                );
+                this.dispatchEvent(eventSuccess);
             }
         });
     }
@@ -135,7 +151,6 @@ export default class Multilineedit extends LightningElement {
     deleteRow(event){
         event.preventDefault();
         const index = event.target.value;
-        
         this.rows.splice(index, 1);
     }
 
@@ -143,7 +158,7 @@ export default class Multilineedit extends LightningElement {
     getRecordId(event){
         event.preventDefault();
         const params = event.detail; 
-        
+        //console.log(' params ', params);
         const index = params.index;
         const recordId = params.recordId;
         const lookupField = params.relationshipfield
