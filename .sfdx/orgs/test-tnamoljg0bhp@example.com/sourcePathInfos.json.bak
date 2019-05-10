@@ -1,0 +1,287 @@
+[
+    [
+        "C:\\Users\\amitsingh4\\Desktop\\Salesforce DX\\SFDXDemoProj\\force-app",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\amitsingh4\\Desktop\\Salesforce DX\\SFDXDemoProj\\force-app",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1554259996008,
+            "changeTime": 1554259996008,
+            "contentHash": "b28b7af69320201d1cf206ebf28373980add1451",
+            "isWorkspace": false,
+            "isArtifactRoot": true
+        }
+    ],
+    [
+        "C:\\Users\\amitsingh4\\Desktop\\Salesforce DX\\SFDXDemoProj\\force-app\\main",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\amitsingh4\\Desktop\\Salesforce DX\\SFDXDemoProj\\force-app\\main",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1554259996009,
+            "changeTime": 1554259996009,
+            "contentHash": "7505d64a54e061b7acd54ccd58b49dc43500b635",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\amitsingh4\\Desktop\\Salesforce DX\\SFDXDemoProj\\force-app\\main\\default",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\amitsingh4\\Desktop\\Salesforce DX\\SFDXDemoProj\\force-app\\main\\default",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1554259996011,
+            "changeTime": 1554259996011,
+            "contentHash": "7334b1e8716ee057f8863fce77d3933d5bd9d984",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\amitsingh4\\Desktop\\Salesforce DX\\SFDXDemoProj\\force-app\\main\\default\\aura",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\amitsingh4\\Desktop\\Salesforce DX\\SFDXDemoProj\\force-app\\main\\default\\aura",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1554261783909,
+            "changeTime": 1554261783909,
+            "contentHash": "43b0c90edd3c362f52ab49dc61dff113c8ebdbce",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\amitsingh4\\Desktop\\Salesforce DX\\SFDXDemoProj\\force-app\\main\\default\\aura\\DemoApp",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\amitsingh4\\Desktop\\Salesforce DX\\SFDXDemoProj\\force-app\\main\\default\\aura\\DemoApp",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1554261783941,
+            "changeTime": 1554261783941,
+            "contentHash": "c786ad326adccc0f0080bc93f65e0edabb1dea23",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\amitsingh4\\Desktop\\Salesforce DX\\SFDXDemoProj\\force-app\\main\\default\\aura\\DemoApp\\DemoApp.app",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\amitsingh4\\Desktop\\Salesforce DX\\SFDXDemoProj\\force-app\\main\\default\\aura\\DemoApp\\DemoApp.app",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 82,
+            "modifiedTime": 1554261808127,
+            "changeTime": 1554261808127,
+            "contentHash": "5b571af25e53f2ab2ff03642bad3a1c86a295ed4",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\amitsingh4\\Desktop\\Salesforce DX\\SFDXDemoProj\\force-app\\main\\default\\aura\\DemoApp\\DemoApp.app-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\amitsingh4\\Desktop\\Salesforce DX\\SFDXDemoProj\\force-app\\main\\default\\aura\\DemoApp\\DemoApp.app-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 241,
+            "modifiedTime": 1554261783921,
+            "changeTime": 1554261783921,
+            "contentHash": "9e1f1ebab3b77526e1d24a1a1e5aaed1f56e1c4e",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\amitsingh4\\Desktop\\Salesforce DX\\SFDXDemoProj\\force-app\\main\\default\\aura\\DemoApp\\DemoApp.auradoc",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\amitsingh4\\Desktop\\Salesforce DX\\SFDXDemoProj\\force-app\\main\\default\\aura\\DemoApp\\DemoApp.auradoc",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 209,
+            "modifiedTime": 1554261783941,
+            "changeTime": 1554261783941,
+            "contentHash": "fd7f560d82324d6a8255c8c6ebf60698f5f93f1e",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\amitsingh4\\Desktop\\Salesforce DX\\SFDXDemoProj\\force-app\\main\\default\\aura\\DemoApp\\DemoApp.css",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\amitsingh4\\Desktop\\Salesforce DX\\SFDXDemoProj\\force-app\\main\\default\\aura\\DemoApp\\DemoApp.css",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 10,
+            "modifiedTime": 1554261783932,
+            "changeTime": 1554261783932,
+            "contentHash": "44063bf628f237edaa1f3f358714dd40ac321703",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\amitsingh4\\Desktop\\Salesforce DX\\SFDXDemoProj\\force-app\\main\\default\\aura\\DemoApp\\DemoApp.svg",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\amitsingh4\\Desktop\\Salesforce DX\\SFDXDemoProj\\force-app\\main\\default\\aura\\DemoApp\\DemoApp.svg",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 661,
+            "modifiedTime": 1554261783938,
+            "changeTime": 1554261783938,
+            "contentHash": "721eeffe17135535c3834b77f1e1968fe6360ed4",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\amitsingh4\\Desktop\\Salesforce DX\\SFDXDemoProj\\force-app\\main\\default\\aura\\DemoApp\\DemoAppController.js",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\amitsingh4\\Desktop\\Salesforce DX\\SFDXDemoProj\\force-app\\main\\default\\aura\\DemoApp\\DemoAppController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 65,
+            "modifiedTime": 1554261783925,
+            "changeTime": 1554261783925,
+            "contentHash": "194250e0c86b1981f8d4e7246be6b32954c6deaf",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\amitsingh4\\Desktop\\Salesforce DX\\SFDXDemoProj\\force-app\\main\\default\\aura\\DemoApp\\DemoAppHelper.js",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\amitsingh4\\Desktop\\Salesforce DX\\SFDXDemoProj\\force-app\\main\\default\\aura\\DemoApp\\DemoAppHelper.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 45,
+            "modifiedTime": 1554261783929,
+            "changeTime": 1554261783929,
+            "contentHash": "fa35ebecd73c127729bf311a95b613f711a6f10b",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\amitsingh4\\Desktop\\Salesforce DX\\SFDXDemoProj\\force-app\\main\\default\\aura\\DemoApp\\DemoAppRenderer.js",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\amitsingh4\\Desktop\\Salesforce DX\\SFDXDemoProj\\force-app\\main\\default\\aura\\DemoApp\\DemoAppRenderer.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 50,
+            "modifiedTime": 1554261783935,
+            "changeTime": 1554261783935,
+            "contentHash": "8b79b016f08440c9b2f7d706a6d21229c854540b",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\amitsingh4\\Desktop\\Salesforce DX\\SFDXDemoProj\\force-app\\main\\default\\lwc",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\amitsingh4\\Desktop\\Salesforce DX\\SFDXDemoProj\\force-app\\main\\default\\lwc",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1554261598038,
+            "changeTime": 1554261598038,
+            "contentHash": "faff82b8edb19af39d7a6c08271b6498fd431a07",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\amitsingh4\\Desktop\\Salesforce DX\\SFDXDemoProj\\force-app\\main\\default\\lwc\\helloWorld",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\amitsingh4\\Desktop\\Salesforce DX\\SFDXDemoProj\\force-app\\main\\default\\lwc\\helloWorld",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1554261598052,
+            "changeTime": 1554261598052,
+            "contentHash": "c4f5c53c9e3fa98e7b41f54b72a11b17045711fb",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\amitsingh4\\Desktop\\Salesforce DX\\SFDXDemoProj\\force-app\\main\\default\\lwc\\helloWorld\\helloWorld.html",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\amitsingh4\\Desktop\\Salesforce DX\\SFDXDemoProj\\force-app\\main\\default\\lwc\\helloWorld\\helloWorld.html",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 158,
+            "modifiedTime": 1554261730964,
+            "changeTime": 1554261730964,
+            "contentHash": "4df430d70be751f6fd209c7c76fad11cb9b21de3",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\amitsingh4\\Desktop\\Salesforce DX\\SFDXDemoProj\\force-app\\main\\default\\lwc\\helloWorld\\helloWorld.js",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\amitsingh4\\Desktop\\Salesforce DX\\SFDXDemoProj\\force-app\\main\\default\\lwc\\helloWorld\\helloWorld.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 100,
+            "modifiedTime": 1554261598042,
+            "changeTime": 1554261598042,
+            "contentHash": "bf675fe2a72f49d0af1e064a955c449450e1f8ed",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\amitsingh4\\Desktop\\Salesforce DX\\SFDXDemoProj\\force-app\\main\\default\\lwc\\helloWorld\\helloWorld.js-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\amitsingh4\\Desktop\\Salesforce DX\\SFDXDemoProj\\force-app\\main\\default\\lwc\\helloWorld\\helloWorld.js-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 225,
+            "modifiedTime": 1554261598047,
+            "changeTime": 1554261598047,
+            "contentHash": "5ce791404c633413877fd6ccd40c72874363af57",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\amitsingh4\\Desktop\\Salesforce DX\\SFDXDemoProj",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\amitsingh4\\Desktop\\Salesforce DX\\SFDXDemoProj",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1554260118661,
+            "changeTime": 1554260118661,
+            "contentHash": "8499f14caadb26edb7610391b24cea2d696a53e6",
+            "isWorkspace": true,
+            "isArtifactRoot": false
+        }
+    ]
+]

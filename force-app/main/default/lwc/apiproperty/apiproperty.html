@@ -1,0 +1,17 @@
+<template>
+    <div class="slds-m-around_large">
+        <lightning-card title="API Property" icon-name="custom:custom39" >
+                <div class="slds-m-around_medium">
+                        <lightning-input
+                            label="Percentage"
+                            type="number"
+                            min="0"
+                            max="100"
+                            value={progress}
+                            onchange={handlePercentageChange}
+                        ></lightning-input>
+                    </div>
+            <c-chartlwc progress={progress} ></c-chartlwc>
+        </lightning-card>
+    </div>
+</template>

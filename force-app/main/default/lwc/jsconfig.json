@@ -1,0 +1,59 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "c/apifunction": [
+                "apifunction/apifunction.js"
+            ],
+            "c/apiproperty": [
+                "apiproperty/apiproperty.js"
+            ],
+            "c/chartlwc": [
+                "chartlwc/chartlwc.js"
+            ],
+            "c/clocklwc": [
+                "clocklwc/clocklwc.js"
+            ],
+            "c/contactbubble": [
+                "contactbubble/contactbubble.js"
+            ],
+            "c/contactlist": [
+                "contactlist/contactlist.js"
+            ],
+            "c/contacttile": [
+                "contacttile/contacttile.js"
+            ],
+            "c/contacttilebubbling": [
+                "contacttilebubbling/contacttilebubbling.js"
+            ],
+            "c/customLookup": [
+                "customLookup/customLookup.js"
+            ],
+            "c/eventbubbling": [
+                "eventbubbling/eventbubbling.js"
+            ],
+            "c/helloWorld": [
+                "helloWorld/helloWorld.js"
+            ],
+            "c/multilineedit": [
+                "multilineedit/multilineedit.js"
+            ],
+            "c/recordList": [
+                "recordList/recordList.js"
+            ],
+            "c/searchComponent": [
+                "searchComponent/searchComponent.js"
+            ]
+        }
+    },
+    "include": [
+        "**/*",
+        "../../../../.sfdx/typings/lwc/**/*.d.ts"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    }
+}

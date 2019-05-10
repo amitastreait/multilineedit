@@ -1,0 +1,27 @@
+<template>
+    <div class="slds-m-around_large">
+        <lightning-card title="Contact Event" icon-name="standard:contact">
+            <lightning-layout vertical-align="center">
+                    <template if:true={contacts}>
+                    <lightning-layout-item padding="around-small" >
+                        <template for:each={contacts} for:item="contact" >
+                                <c-contacttile contact={contact} key={contact.Id} 
+                                onselect={handleSelect} ></c-contacttile>
+                        </template>
+                    </lightning-layout-item>
+                    </template>
+            </lightning-layout>
+            <lightning-layout>
+                <lightning-layout-item padding="around-small">
+                    <template if:true={selectedContact}>
+                            <lightning-card title="Selected Contact" icon-name="standard:contact">
+                                <p class="slds-m-left_small">
+                                    {selectedContact.Name}
+                                </p>
+                            </lightning-card>
+                        </template>
+                </lightning-layout-item>
+            </lightning-layout>
+        </lightning-card> 
+    </div>
+</template>

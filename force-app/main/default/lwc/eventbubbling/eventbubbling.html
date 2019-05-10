@@ -1,0 +1,35 @@
+<template>
+        <lightning-card title="EventBubbling" icon-name="standard:logging">
+            <template if:true={contacts.data}>
+                <lightning-layout class="slds-m-around_medium">
+                    <lightning-layout-item
+                        oncontactselect={handleContactSelect}
+                     >
+                    <template for:each={contacts.data} for:item="contact">
+                            <c-contacttilebubbling 
+                                key={contact.Id}
+                                contact={contact} >
+                            </c-contacttilebubbling>
+                            
+                    </template>
+                    </lightning-layout-item>
+                    <lightning-layout-item class="slds-m-left_medium">
+                        <template if:true={selectedContact}>
+                            <p>{selectedContact.Name}</p>
+                            <p>{selectedContact.Title}</p>
+                            <p>
+                                <lightning-formatted-phone
+                                    value={selectedContact.Phone}
+                                ></lightning-formatted-phone>
+                            </p>
+                            <p>
+                                <lightning-formatted-email
+                                    value={selectedContact.Email}
+                                ></lightning-formatted-email>
+                            </p>
+                        </template>
+                    </lightning-layout-item>
+                </lightning-layout>
+            </template>
+        </lightning-card>
+    </template>

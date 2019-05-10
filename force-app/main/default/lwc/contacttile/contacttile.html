@@ -1,0 +1,15 @@
+<template>
+    <div class="slds-m-around_large">
+        <p>
+        <a href="JavaScript:void(0);" onclick={handleSelect} >
+            <lightning-formatted-text value={contact.Name} ></lightning-formatted-text>
+        </a>
+    </p>
+    <p>
+        <lightning-formatted-email value={contact.Email}></lightning-formatted-email>
+    </p>
+    <p>
+        <lightning-formatted-phone value={contact.Phone}></lightning-formatted-phone>
+    </p>
+    </div>
+</template>

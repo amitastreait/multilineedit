@@ -1,0 +1,28 @@
+{
+  "orgName": "Acme Enterprise",
+  "edition": "Enterprise",
+  "features": [   
+                  "Communities", 
+                  "ServiceCloud", 
+                  "Chatbot",
+                  "Entitlements",
+                  "Knowledge",
+                  "Pardot",
+                  "MultiCurrency",
+                  "EinsteinAssistant"
+              ],
+  "settings": {
+      "orgPreferenceSettings": {
+          "networksEnabled": true,
+          "s1DesktopEnabled": true,
+          "s1EncryptedStoragePref2": false
+      },
+      "omniChannelSettings": {
+          "enableOmniChannel": true
+      },
+
+      "caseSettings": {
+          "systemUserEmail": "amitsingh4@deloitte.com"
+      }
+  }
+}
