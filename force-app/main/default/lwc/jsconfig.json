@@ -30,6 +30,9 @@
             "c/customLookup": [
                 "customLookup/customLookup.js"
             ],
+            "c/errorPanel": [
+                "errorPanel/errorPanel.js"
+            ],
             "c/eventbubbling": [
                 "eventbubbling/eventbubbling.js"
             ],
@@ -45,11 +48,11 @@
             "c/searchComponent": [
                 "searchComponent/searchComponent.js"
             ],
-            "c/errorPanel": [
-                "errorPanel/errorPanel.js"
-            ],
             "c/utils": [
                 "utils/utils.js"
+            ],
+            "c/multilinedemo": [
+                "multilinedemo/multilinedemo.js"
             ]
         }
     },

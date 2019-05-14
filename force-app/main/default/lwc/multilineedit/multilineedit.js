@@ -33,8 +33,17 @@ export default class Multilineedit extends LightningElement {
         }
     ];
 
-    @track leadSource=[];
+    @track leadSource = [];
     /* Prepare the first Record of the List */
+    
+    @api recordData ={
+        "FirstName"   : "",
+        "LastName"    : "",
+        "Email"       : "",
+        "Title"       : "",
+        "AccountId"   : ""
+    };
+    
     @track rows = [
         {
             "FirstName"   : "",
@@ -45,20 +54,16 @@ export default class Multilineedit extends LightningElement {
         }
     ];
     connectedCallback(){
-        //this.leadSource = this.leadSource;
+        console.log(' connectedCallback Called ', this.recordData);
     }
 
     /* Add row to the existing list */
     addRow(event){
         event.preventDefault();
+        console.log(' Add Rows ');
         this.rows.push(
-            {
-                "FirstName"   : "",
-                "LastName"    : "",
-                "Email"       : "",
-                "Title"       : "",
-                "AccountId"   : ""
-            }
+            JSON.parse(JSON.stringify(this.recordData))
+            
         );
         
     }
@@ -108,7 +113,6 @@ export default class Multilineedit extends LightningElement {
         const index = event.target.title;
         const value = event.target.value;
         const fieldAPIName = event.target.name;
-        
         const correctRecord = this.rows[index];
         correctRecord[fieldAPIName] = value;
         
@@ -118,6 +122,7 @@ export default class Multilineedit extends LightningElement {
     saveRows(event){
         event.preventDefault();
         console.log(JSON.stringify(this.rows));
+        
         createContacts({
             "recordList" : JSON.stringify(this.rows)
         })
@@ -162,7 +167,6 @@ export default class Multilineedit extends LightningElement {
         const index = params.index;
         const recordId = params.recordId;
         const lookupField = params.relationshipfield
-        
         const correctRecord = this.rows[index];
         correctRecord[lookupField] = recordId;
         

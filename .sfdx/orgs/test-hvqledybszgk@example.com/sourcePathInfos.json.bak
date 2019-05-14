@@ -198,9 +198,9 @@
             "sourcePath": "C:\\Users\\amitsingh4\\Desktop\\Salesforce DX\\SFDXDemoProj\\force-app\\main\\default\\lwc",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1557483391607,
-            "changeTime": 1557483391607,
-            "contentHash": "99edf705b34bf3946bf7e6474e939d5537ad2f27",
+            "modifiedTime": 1557828410330,
+            "changeTime": 1557828410330,
+            "contentHash": "94e7719c5021486761f62ff467f7db25977eec68",
             "isMetadataFile": false,
             "state": "u",
             "isWorkspace": false
@@ -963,10 +963,10 @@
             "sourcePath": "C:\\Users\\amitsingh4\\Desktop\\Salesforce DX\\SFDXDemoProj\\force-app\\main\\default\\lwc\\multilineedit\\multilineedit.js",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 5132,
-            "modifiedTime": 1557484725106,
-            "changeTime": 1557484725106,
-            "contentHash": "9df3840da2780f7ee3cc8eedf27fb2fbb7f7977b"
+            "size": 5278,
+            "modifiedTime": 1557829310242,
+            "changeTime": 1557829310242,
+            "contentHash": "4c5a977baf524fb2be688efae7ced2fe372eea64"
         }
     ],
     [
@@ -1037,14 +1037,14 @@
     [
         "C:\\Users\\amitsingh4\\Desktop\\Salesforce DX\\SFDXDemoProj\\force-app\\main\\default\\lwc\\customLookup\\customLookup.js",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\amitsingh4\\Desktop\\Salesforce DX\\SFDXDemoProj\\force-app\\main\\default\\lwc\\customLookup\\customLookup.js",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 2623,
             "modifiedTime": 1557484734253,
             "changeTime": 1557484734253,
-            "contentHash": "9f0c6661ec4dd2b2838ed92cd985e1326f93da9d"
+            "contentHash": "9f0c6661ec4dd2b2838ed92cd985e1326f93da9d",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -1303,6 +1303,58 @@
             "modifiedTime": 1557483391613,
             "changeTime": 1557483391613,
             "contentHash": "fbbb455420e19a2963bfb713b14be5536bde912a",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\amitsingh4\\Desktop\\Salesforce DX\\SFDXDemoProj\\force-app\\main\\default\\lwc\\multilinedemo",
+        {
+            "sourcePath": "C:\\Users\\amitsingh4\\Desktop\\Salesforce DX\\SFDXDemoProj\\force-app\\main\\default\\lwc\\multilinedemo",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1557828410341,
+            "changeTime": 1557828410341,
+            "contentHash": "751d993f9fa46756329cae20977bdeed6a5de069",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\amitsingh4\\Desktop\\Salesforce DX\\SFDXDemoProj\\force-app\\main\\default\\lwc\\multilinedemo\\multilinedemo.html",
+        {
+            "sourcePath": "C:\\Users\\amitsingh4\\Desktop\\Salesforce DX\\SFDXDemoProj\\force-app\\main\\default\\lwc\\multilinedemo\\multilinedemo.html",
+            "isDirectory": false,
+            "size": 294,
+            "modifiedTime": 1557828997727,
+            "changeTime": 1557828997727,
+            "contentHash": "f44f38a4a84901846296013d4fe800e76e8a8f09",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\amitsingh4\\Desktop\\Salesforce DX\\SFDXDemoProj\\force-app\\main\\default\\lwc\\multilinedemo\\multilinedemo.js",
+        {
+            "sourcePath": "C:\\Users\\amitsingh4\\Desktop\\Salesforce DX\\SFDXDemoProj\\force-app\\main\\default\\lwc\\multilinedemo\\multilinedemo.js",
+            "isDirectory": false,
+            "size": 103,
+            "modifiedTime": 1557828410333,
+            "changeTime": 1557828410333,
+            "contentHash": "610233dbba41e501697e065ab0eb7d1557f51d6a",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\amitsingh4\\Desktop\\Salesforce DX\\SFDXDemoProj\\force-app\\main\\default\\lwc\\multilinedemo\\multilinedemo.js-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\amitsingh4\\Desktop\\Salesforce DX\\SFDXDemoProj\\force-app\\main\\default\\lwc\\multilinedemo\\multilinedemo.js-meta.xml",
+            "isDirectory": false,
+            "size": 347,
+            "modifiedTime": 1557828662270,
+            "changeTime": 1557828662270,
+            "contentHash": "51d6c214c0d60321e20d6fc3bac3d7495fb03305",
             "isMetadataFile": true,
             "state": "u"
         }
